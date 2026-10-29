@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeaveManagementEFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44c3b79fe5dd62a6edb9e9031067ceaefc56963f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2991c97aa8e78bd5a8a60c6795bbbcade97a9125")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeaveManagementEFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeaveManagementEFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

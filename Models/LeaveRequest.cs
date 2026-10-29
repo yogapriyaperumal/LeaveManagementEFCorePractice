@@ -1,27 +1,25 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+using System.ComponentModel.DataAnnotations;
 
-namespace LeaveManagementEFCore.Models;
-
-public class LeaveRequest
+namespace LeaveManagementSystemEFCore.Models
 {
-    public int Id { get; set; }
+    public class LeaveRequest
+    {
+        public int Id { get; set; }
 
-  
-    public string EmployeeName { get; set; } = string.Empty;
+        [Required]
+        public string EmployeeName { get; set; } = string.Empty;
 
-    [Required]
-    [StringLength(50)]
-    public string LeaveType { get; set; } = string.Empty;
+        [Required]
+        public string LeaveType { get; set; } = string.Empty;
 
-    public DateTime StartDate { get; set; }
+        public DateTime StartDate { get; set; }
 
-    public DateTime EndDate { get; set; }
+        public DateTime EndDate { get; set; }
 
-    [Required]
-    [StringLength(500)]
-    public string Reason { get; set; } = string.Empty;
+        [Required]
+        public string Reason { get; set; } = string.Empty;
 
-    [Required]
-    [StringLength(20)]
-    public string Status { get; set; } = "Pending";
+        public string Status { get; set; } = "Pending";
+    }
 }
