@@ -13,5 +13,6 @@ namespace LeaveManagementSystemEFCore.Data
         }
 
         public DbSet<LeaveRequest> LeaveRequests { get; set; }
+        public DbSet<AuditLog> AuditLogs { get; set; }
     }
 }
